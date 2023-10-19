@@ -24,14 +24,13 @@ body {
     gap: 2rem;
 }
 
-
 .header > span {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-.container-1 > p {
+.title-text-button > p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -42,11 +41,20 @@ body {
     color: #e5e7eb;
 }
 
-.container-1 > h1 {
+.title-text-button > h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.title-text-button,
+.container-1-image {
     margin-top: 18vh;
+    margin-bottom: 18vh;
+}
+
+.container-1 {
+    display: flex;
 }
 
 .container-2 > h2 {
