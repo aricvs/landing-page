@@ -5,3 +5,7 @@ A basic landing page done from scratch using the concepts learned in The basic H
 
 Images by:
 Victoria Emerson
+cottonbro studio
+cottonbro CG studio
+Dimitri Shteizel
+Kate Branch
