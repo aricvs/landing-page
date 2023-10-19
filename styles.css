@@ -69,6 +69,23 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
+}
+
+.picture-cards {
+    display: flex;
+    justify-content: center;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    margin-bottom: 13vh;
+    gap: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vh;
 }
 
 .container-3 {
@@ -115,12 +132,16 @@ button:active {
 }
 
 .card > img {
-    width: 13vw;
+    width: 12rem;
     border-radius: 10px;
     border-style: solid;
     border-color: #3882f6;
 }
 
 .card > p {
-    color: #1f2937
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
