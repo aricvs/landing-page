@@ -6,11 +6,24 @@ body {
     margin: 0;
 }
 
-.header,
-.container-1,
+.header-container-1,
 .footer {
     background-color: #1f2937;
+    padding-top: 4vh;
+    padding-left: 15vw;
+    padding-right: 9vw;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 2rem;
+}
+
 
 .header > span {
     font-size: 24px;
@@ -18,20 +31,22 @@ body {
     font-weight: bolder;
 }
 
-.header > a,
 .container-1 > p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header > a {
+.header-links > a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .container-1 > h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 18vh;
 }
 
 .container-2 > h2 {
