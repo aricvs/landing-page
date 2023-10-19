@@ -66,9 +66,17 @@ button {
     border-style: none;
     width: 8rem;
     height: 2.3rem;
-    color: #f9faf8;
+    color: white;
     font-weight: bolder;
     font-size: 18px;
+}
+
+button:hover {
+    background-color: #1d478b;
+}
+
+button:active {
+    background-color: #949faf;
 }
 
 .container-1-placeholder {
