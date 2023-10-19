@@ -25,6 +25,28 @@
     color: #f9faf8;
 }
 
+.container-2 > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container-3 {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+button,
+.cta-container {
+    background-color: #3882f6;
+}
+
 .container-1-placeholder {
     width: 30vw;
 }
