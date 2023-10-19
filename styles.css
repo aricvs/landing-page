@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .header,
 .container-1,
 .footer {
@@ -11,12 +15,17 @@
 .header > span {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 .header > a,
 .container-1 > p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header > a {
+    text-decoration: none;
 }
 
 .container-1 > h1 {
@@ -47,10 +56,32 @@ button,
     background-color: #3882f6;
 }
 
+.cta-container > button {
+    border-style: solid;
+    border-color: white;
+}
+
+button {
+    border-radius: 8px;
+    border-style: none;
+    width: 8rem;
+    height: 2.3rem;
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 .container-1-placeholder {
     width: 30vw;
 }
 
 .card > img {
     width: 13vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.card > p {
+    color: #1f2937
 }
