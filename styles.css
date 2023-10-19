@@ -1,3 +1,7 @@
 .container-1-placeholder {
     width: 30vw;
 }
+
+.card > img {
+    width: 13vw;
+}
