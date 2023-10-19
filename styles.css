@@ -45,16 +45,24 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .title-text-button,
-.container-1-image {
+.container-1-placeholder {
     margin-top: 18vh;
     margin-bottom: 18vh;
 }
 
+.title-text-button > p {
+    margin-top: 5px;
+}
+
 .container-1 {
     display: flex;
+    align-items: center;
+    gap: 3rem;
 }
 
 .container-2 > h2 {
@@ -103,7 +111,7 @@ button:active {
 }
 
 .container-1-placeholder {
-    width: 30vw;
+    width: 38vw;
 }
 
 .card > img {
