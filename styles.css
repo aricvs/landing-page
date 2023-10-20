@@ -95,8 +95,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 18vw;
-    padding-right: 18vw;
+    padding-left: 15vw;
+    padding-right: 9vw;
 }
 
 .quote {
@@ -121,6 +121,8 @@ body {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    padding-left: 15vw;
+    padding-right: 9vw;
 }
 
 .cta-container {
@@ -202,7 +204,10 @@ button:active {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    padding: 0;
     margin: 0;
     font-size: 20px;
+    padding-left: 15vw;
+    padding-right: 9vw;
+    padding-top: 0;
+    padding-bottom: 0;
 }
